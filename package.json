@@ -6,11 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "node", "npm", "platzi"],
+  "keywords": [
+    "javascript",
+    "node",
+    "npm",
+    "platzi"
+  ],
   "author": "Jose Di Pietro <dijose29@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDevelop3r/random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JDevelop3r/random-messages/issues"
+  },
+  "homepage": "https://github.com/JDevelop3r/random-messages#readme"
 }
