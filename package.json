@@ -1,0 +1,16 @@
+{
+  "name": "@jdevelop3r/random-messages",
+  "version": "1.0.0",
+  "description": "Mensajes Ramdoms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "node", "npm", "platzi"],
+  "author": "Jose Di Pietro <dijose29@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
